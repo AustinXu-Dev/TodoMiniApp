@@ -8,23 +8,29 @@
 import Foundation
 import SwiftUI
 
-public class TodoMiniAppView: MiniAppProtocol{
-    var toDoTasks: [String] = ["Buy a cup of coffee...", "Buy a cup of tea..."]
+public class TodoMiniAppView{
     
     public init() {}
 
-    public var view: AnyView {
-        AnyView(
-            VStack{
-                List(toDoTasks, id: \.self) { item  in
-                    HStack{
-                        Text(item)
-                            .font(.headline)
-                        Spacer()
-                        Image(systemName: "circle")
-                    }
+    public static func createSampleView() -> some View{
+        let sampleView = sampleView()
+        return sampleView
+    }
+    
+}
+
+struct sampleView: View {
+    var toDoTasks: [String] = ["Buy a cup of coffee...", "Buy a cup of tea..."]
+    var body: some View {
+        VStack{
+            List(toDoTasks, id: \.self) { item  in
+                HStack{
+                    Text(item)
+                        .font(.headline)
+                    Spacer()
+                    Image(systemName: "circle")
                 }
             }
-        )
+        }
     }
 }

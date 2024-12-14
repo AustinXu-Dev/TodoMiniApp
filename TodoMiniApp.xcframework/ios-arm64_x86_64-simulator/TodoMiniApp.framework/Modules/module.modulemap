@@ -1,6 +1,0 @@
-framework module TodoMiniApp {
-  umbrella header "TodoMiniApp.h"
-  export *
-
-  module * { export * }
-}
