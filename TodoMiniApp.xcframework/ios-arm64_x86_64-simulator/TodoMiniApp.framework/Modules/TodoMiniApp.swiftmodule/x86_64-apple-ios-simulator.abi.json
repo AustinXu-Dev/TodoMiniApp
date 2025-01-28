@@ -1,0 +1,110 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TodoMiniApp",
+    "printedName": "TodoMiniApp",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TodoMiniApp",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TodoMiniApp"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TodoMiniAppView",
+        "printedName": "TodoMiniAppView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TodoMiniAppView",
+                "printedName": "TodoMiniApp.TodoMiniAppView",
+                "usr": "s:11TodoMiniApp0abC4ViewC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TodoMiniApp0abC4ViewCACycfc",
+            "mangledName": "$s11TodoMiniApp0abC4ViewCACycfc",
+            "moduleName": "TodoMiniApp",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createSampleView",
+            "printedName": "createSampleView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TodoMiniApp0abC4ViewC012createSampleD0QryFZ",
+            "mangledName": "$s11TodoMiniApp0abC4ViewC012createSampleD0QryFZ",
+            "moduleName": "TodoMiniApp",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11TodoMiniApp0abC4ViewC",
+        "mangledName": "$s11TodoMiniApp0abC4ViewC",
+        "moduleName": "TodoMiniApp",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
